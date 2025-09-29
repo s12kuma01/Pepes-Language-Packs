@@ -1,5 +1,6 @@
 ## Pepe's Language Packs
 プライベートMODPACK用翻訳リソースパック
+AIを使用しています。
 ### 進捗
 waystones - 100%
 torchmaster - 100%

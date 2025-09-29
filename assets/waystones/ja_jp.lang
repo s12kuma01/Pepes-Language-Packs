@@ -6,7 +6,7 @@ item.waystones:return_scroll.name=帰還の巻物
 item.waystones:warp_stone.name=ワープストーン
 item.waystones:bound_scroll.name=束縛の巻物
 
-itemGroup.waystones=WayStones
+itemGroup.waystones=Way Stones
 
 waystones:noDimensionWarp=ワールド間をワープすることはできません。
 waystones:waystoneBroken=束縛されたウェイストーンが移動されたか、破壊されました。

@@ -1,322 +1,334 @@
 
-warning.rtgStartup1=Realistic Terrain Generation uses a custom world type.
-warning.rtgStartup2=If you want realistic terrain, keep clicking the 'World Type' button
-warning.rtgStartup3=under 'More World Options' until it displays 'Realistic'.
-warning.rtgStartup4=The world type can be used on servers by changing the 'level-type' in
-warning.rtgStartup5=server.properties to 'RTG' (without quotes).
-warning.rtgStartup6=This message will only display once.
+warning.rtgStartup1=Realistic Terrain Generationはカスタムのワールドタイプを使用します。
+warning.rtgStartup2=リアルな地形を生成したい場合は、「その他のワールド設定...」内の
+warning.rtgStartup3=「ワールドタイプ」ボタンを**「Realistic」**と表示されるまで押し続けてください。
+warning.rtgStartup4=専用サーバーで使用するには、server.properties内の
+warning.rtgStartup5=「level-type」を「RTG」(引用符なし)に変更してください。
+warning.rtgStartup6=このメッセージは一度だけ表示されます。
 
 #-----------------------------
 # GUI Customize World Screen
 #-----------------------------
 gui.createWorld.worldtypename=RTG - Realistic
-gui.createWorld.worldtype.line1=Realistic Terrain Generation uses a custom world type.
-gui.createWorld.worldtype.line2=If you want to use the RTG world type, select
-gui.createWorld.worldtype.line3=§9World Type: %s§r under §9More World Options§r.
-gui.createWorld.worldtype.line4=For use on a dedicated server, set
-gui.createWorld.worldtype.line5=§9level-type=RTG§r in §9server.properties§r
+gui.createWorld.worldtype.line1=Realistic Terrain Generationはカスタムのワールドタイプを使用します。
+gui.createWorld.worldtype.line2=RTGワールドタイプを使用するには、
+gui.createWorld.worldtype.line3=§9その他のワールド設定§r内の§9ワールドタイプ: %s§rを選択してください。
+gui.createWorld.worldtype.line4=専用サーバーで使用する場合は、
+gui.createWorld.worldtype.line5=§9server.properties§rで§9level-type=RTG§rを設定してください。
 
-gui.createWorld.customize.clipboard=Copy Settings to Clipboard
-gui.createWorld.customize.clipboard.tooltip=Click This button to copy the current settings to the clipboard for easy pasting into the generator-settings field of a server.properties file.
+gui.createWorld.customize.clipboard=設定をクリップボードにコピー
+gui.createWorld.customize.clipboard.tooltip=このボタンをクリックすると、現在の設定がクリップボードにコピーされ、server.propertiesファイルのgenerator-settingsフィールドに簡単に貼り付けられます。
+gui.createWorld.customize.title.maintitle=RTGカスタムワールド設定
 
-gui.createWorld.customize.title.maintitle=RTG Custom World Settings
+gui.createWorld.customize.title.PAGE1=地形と地表の設定
 
-gui.createWorld.customize.title.PAGE1=Terrain & Surface Settings
+gui.createWorld.customize.category.WORLD=ワールド設定
+gui.createWorld.customize.setting.fixedBiome=固定バイオーム
+gui.createWorld.customize.setting.fixedBiome.tooltip=単一バイオームワールドのバイオームを選択します
+gui.createWorld.customize.setting.biomeSize=バイオームサイズ
+gui.createWorld.customize.setting.biomeSize.tooltip=バイオームの平均サイズを変更します
 
-gui.createWorld.customize.category.WORLD=World Settings
-gui.createWorld.customize.setting.fixedBiome=Fixed Biome
-gui.createWorld.customize.setting.fixedBiome.tooltip=Chooses the biome for a single-biome world
-gui.createWorld.customize.setting.biomeSize=Biome Size
-gui.createWorld.customize.setting.biomeSize.tooltip=Changes the average size of the biomes
+gui.createWorld.customize.category.SURFACE=地表の設定
+gui.createWorld.customize.setting.useBoulders=岩（ボルダー）の生成
+gui.createWorld.customize.setting.useBoulders.tooltip=岩（ボルダー）の生成を有効にします
+gui.createWorld.customize.setting.boulderMult=岩の生成確率 1/x
+gui.createWorld.customize.setting.boulderMult.tooltip=岩（ボルダー）が生成される確率
+gui.createWorld.customize.setting.sandDuneHeight=砂丘の高さ
+gui.createWorld.customize.setting.sandDuneHeight.tooltip=砂丘の高さを調整します
+gui.createWorld.customize.setting.snowDuneHeight=雪丘の高さ
+gui.createWorld.customize.setting.snowDuneHeight.tooltip=雪丘の高さを調整します
+gui.createWorld.customize.setting.useSnowLayers=雪の層
+gui.createWorld.customize.setting.useSnowLayers.tooltip=雪原地帯で雪のグラデーション層の生成を有効にします
+gui.createWorld.customize.setting.snowLayerTemp=雪の層の温度
+gui.createWorld.customize.setting.snowLayerTemp.tooltip=雪の層が生成される温度を設定します
 
-gui.createWorld.customize.category.SURFACE=Surface Settings
-gui.createWorld.customize.setting.useBoulders=Enable Boulders
-gui.createWorld.customize.setting.useBoulders.tooltip=Enables the generation of boulders
-gui.createWorld.customize.setting.boulderMult=Boulder Chance 1/x
-gui.createWorld.customize.setting.boulderMult.tooltip=The chance that a boulder will generate
-gui.createWorld.customize.setting.sandDuneHeight=Sand Dune Height
-gui.createWorld.customize.setting.sandDuneHeight.tooltip=Adjusts the height of sand dunes
-gui.createWorld.customize.setting.snowDuneHeight=Snow Dune Height
-gui.createWorld.customize.setting.snowDuneHeight.tooltip=Adjusts the height of snow dunes
-gui.createWorld.customize.setting.useSnowLayers=Snow Layers
-gui.createWorld.customize.setting.useSnowLayers.tooltip=Enable gradiant snow layers in snowy biomes
-gui.createWorld.customize.setting.snowLayerTemp=Snow Layer Temp
-gui.createWorld.customize.setting.snowLayerTemp.tooltip=The temperature that snow layers generate at
+gui.createWorld.customize.category.UNDERGROUND=地下の設定
+gui.createWorld.customize.setting.bedrockLayers=基盤岩（岩盤）の層
+gui.createWorld.customize.setting.bedrockLayers.tooltip=基盤岩（岩盤）の層数を設定します
+gui.createWorld.customize.setting.useCaves=洞窟
+gui.createWorld.customize.setting.useCaves.tooltip=洞窟の生成を有効にします
+gui.createWorld.customize.setting.caveChance=洞窟の生成確率
+gui.createWorld.customize.setting.caveChance.tooltip=値が**高い**ほど洞窟は**少なく**なります
+gui.createWorld.customize.setting.caveDensity=洞窟の密度
+gui.createWorld.customize.setting.caveDensity.tooltip=値が**高い**ほど洞窟は**大きく**なります
+gui.createWorld.customize.setting.useRavines=渓谷
+gui.createWorld.customize.setting.useRavines.tooltip=渓谷の生成を有効にします
+gui.createWorld.customize.setting.ravineChance=渓谷の生成確率
+gui.createWorld.customize.setting.ravineChance.tooltip=値が**高い**ほど渓谷は**少なく**なります
 
-gui.createWorld.customize.category.UNDERGROUND=Underground Settings
-gui.createWorld.customize.setting.bedrockLayers=Bedrock Layers
-gui.createWorld.customize.setting.bedrockLayers.tooltip=Sets the number of Bedrock layers
-gui.createWorld.customize.setting.useCaves=Caves
-gui.createWorld.customize.setting.useCaves.tooltip=Enable cave generation
-gui.createWorld.customize.setting.caveChance=Cave Chance
-gui.createWorld.customize.setting.caveChance.tooltip=HIGHER values = FEWER caves
-gui.createWorld.customize.setting.caveDensity=Cave Density
-gui.createWorld.customize.setting.caveDensity.tooltip=HIGHER values = BIGGER caves
-gui.createWorld.customize.setting.useRavines=Ravines
-gui.createWorld.customize.setting.useRavines.tooltip=Enable ravine generation
-gui.createWorld.customize.setting.ravineChance=Ravine Chance
-gui.createWorld.customize.setting.ravineChance.tooltip=HIGHER values = FEWER ravines
+gui.createWorld.customize.title.PAGE2=水系の特徴設定
 
-gui.createWorld.customize.title.PAGE2=Water Feature Settings
+gui.createWorld.customize.category.RIVERS=川の設定
+gui.createWorld.customize.setting.riverSize=サイズ
+gui.createWorld.customize.setting.riverSize.tooltip=川の幅を調整します
+gui.createWorld.customize.setting.riverFrequency=頻度倍率
+gui.createWorld.customize.setting.riverFrequency.tooltip=川が生成される頻度を
+調整します
+gui.createWorld.customize.setting.riverBendMult=曲がりくねり倍率
+gui.createWorld.customize.setting.riverBendMult.tooltip=川がどれだけ曲がりくねるかを調整します
+gui.createWorld.customize.setting.riverCutOffAmpl=遮断振幅
+gui.createWorld.customize.setting.riverCutOffAmpl.tooltip=値が高いほど、大規模な遮断ノイズの影響が大きくなります
+gui.createWorld.customize.setting.riverCutOffScale=遮断スケール
+gui.createWorld.customize.setting.riverCutOffScale.tooltip=値が高いほど、川の近くの草地のエリアが大きくなりますが、より珍しくなります
 
-gui.createWorld.customize.category.RIVERS=River Settings
-gui.createWorld.customize.setting.riverSize=Size
-gui.createWorld.customize.setting.riverSize.tooltip=Adjusts the width of rivers
-gui.createWorld.customize.setting.riverFrequency=Frequency Multiplier
-gui.createWorld.customize.setting.riverFrequency.tooltip=Adjusts how often rivers will generate
-gui.createWorld.customize.setting.riverBendMult=Bend Multiplier
-gui.createWorld.customize.setting.riverBendMult.tooltip=Adjust how bendy rivers will be
-gui.createWorld.customize.setting.riverCutOffAmpl=Cut-off Amplitude
-gui.createWorld.customize.setting.riverCutOffAmpl.tooltip=Higher numbers make the large-scale cut-off noise have a greater effect
-gui.createWorld.customize.setting.riverCutOffScale=Cut-off Scale
-gui.createWorld.customize.setting.riverCutOffScale.tooltip=Higher numbers make grassy areas near rivers bigger, but also more rare
+gui.createWorld.customize.category.RTGLAKES=RTG湖の設定
+gui.createWorld.customize.setting.RTGlakeSizeMult=サイズ倍率
+gui.createWorld.customize.setting.RTGlakeSizeMult.tooltip=RTGカスタム湖（Riverバイオーム）のサイズ
+gui.createWorld.customize.setting.RTGlakeFreqMult=頻度倍率
+gui.createWorld.customize.setting.RTGlakeFreqMult.tooltip=RTGカスタム湖が生成される頻度
+gui.createWorld.customize.setting.RTGlakeShoreBend=岸の曲がりくねり倍率
+gui.createWorld.customize.setting.RTGlakeShoreBend.tooltip=湖の岸がどれだけ曲がりくねるかを調整します。
+gui.createWorld.customize.category.VANILLASURFACELAKES=バニラ地表の湖の設定
+gui.createWorld.customize.setting.useWaterLakes=水たまり（水湖）
+gui.createWorld.customize.setting.useWaterLakes.tooltip=バニラ地表の水たまりの生成を有効にします
+gui.createWorld.customize.setting.waterLakeChance=水たまりの生成確率 1/x
+gui.createWorld.customize.setting.waterLakeChance.tooltip=バニラ地表の水たまりが生成される確率
+gui.createWorld.customize.setting.useLavaLakes=溶岩だまり（溶岩湖）
+gui.createWorld.customize.setting.useLavaLakes.tooltip=バニラ地表の溶岩だまりの生成を有効にします
+gui.createWorld.customize.setting.lavaLakeChance=溶岩だまりの生成確率 1/x
+gui.createWorld.customize.setting.lavaLakeChance.tooltip=バニラ地表の溶岩だまりが生成される確率
 
-gui.createWorld.customize.category.RTGLAKES=RTG Lake Settings
-gui.createWorld.customize.setting.RTGlakeSizeMult=Size Multiplier
-gui.createWorld.customize.setting.RTGlakeSizeMult.tooltip=The size of RTG custom lakes (River biome)
-gui.createWorld.customize.setting.RTGlakeFreqMult=Frequency Multiplier
-gui.createWorld.customize.setting.RTGlakeFreqMult.tooltip=The frequency by which RTG custom lakes will generate
-gui.createWorld.customize.setting.RTGlakeShoreBend=Shore Bend Multiplier
-gui.createWorld.customize.setting.RTGlakeShoreBend.tooltip=Adjusts the bendiness of lake shores.
+gui.createWorld.customize.category.VANILLAUNDERGROUNDLAKES=バニラ地下の湖の設定
+gui.createWorld.customize.setting.useWaterUndLakes=水たまり（水湖）
+gui.createWorld.customize.setting.useWaterUndLakes.tooltip=バニラ地下の水たまりの生成を有効にします
+gui.createWorld.customize.setting.waterUndLakeChance=水たまりの生成確率 1/x
+gui.createWorld.customize.setting.waterUndLakeChance.tooltip=バニラ地下の水たまりが生成される確率
+gui.createWorld.customize.setting.useLavaUndLakes=溶岩だまり（溶岩湖）
+gui.createWorld.customize.setting.useLavaUndLakes.tooltip=バニラ地下の溶岩だまりの生成を有効にします
+gui.createWorld.customize.setting.lavaUndLakeChance=溶岩だまりの生成確率 1/x
+gui.createWorld.customize.setting.lavaUndLakeChance.tooltip=バニラ地下の溶岩だまりが生成される確率
 
-gui.createWorld.customize.category.VANILLASURFACELAKES=Vanilla Surface lakes Settings
-gui.createWorld.customize.setting.useWaterLakes=Water Lakes
-gui.createWorld.customize.setting.useWaterLakes.tooltip=Enable vanilla surface water lakes
-gui.createWorld.customize.setting.waterLakeChance=Water Lake Chance 1/x
-gui.createWorld.customize.setting.waterLakeChance.tooltip=The chance that a vanilla surface water lake will generate
-gui.createWorld.customize.setting.useLavaLakes=Lava Lakes
-gui.createWorld.customize.setting.useLavaLakes.tooltip=Enable vanilla surface lava lakes
-gui.createWorld.customize.setting.lavaLakeChance=Lava Lake Chance 1/x
-gui.createWorld.customize.setting.lavaLakeChance.tooltip=The chance that a vanilla surface lava lake will generate
-
-gui.createWorld.customize.category.VANILLAUNDERGROUNDLAKES=Vanilla Underground Lake Settings
-gui.createWorld.customize.setting.useWaterUndLakes=Water Lakes
-gui.createWorld.customize.setting.useWaterUndLakes.tooltip=Enable vanilla underground water lakes
-gui.createWorld.customize.setting.waterUndLakeChance=Water Lake Chance 1/x
-gui.createWorld.customize.setting.waterUndLakeChance.tooltip=The chance that a vanilla underground water lake will generate
-gui.createWorld.customize.setting.useLavaUndLakes=Lava Lakes
-gui.createWorld.customize.setting.useLavaUndLakes.tooltip=Enable vanilla underground lava lakes
-gui.createWorld.customize.setting.lavaUndLakeChance=Lava Lake Chance 1/x
-gui.createWorld.customize.setting.lavaUndLakeChance.tooltip=The chance that a vanilla underground lava lake will generate
-
-gui.createWorld.customize.category.VANILLASPOUTS=Water and Lava Spouts (1/x chance)
-gui.createWorld.customize.setting.waterSpoutChance=Water Spout Chance
-gui.createWorld.customize.setting.waterSpoutChance.tooltip=A 1/x chance that a water spout will generate on the side of a hill or cave wall
-gui.createWorld.customize.setting.lavaSpoutChance=Lava Spout Chance
-gui.createWorld.customize.setting.lavaSpoutChance.tooltip=A 1/x chance that a lava spout will generate on the side of a hill or cave wall
+gui.createWorld.customize.category.VANILLASPOUTS=水と溶岩の噴出（1/x 確率）
+gui.createWorld.customize.setting.waterSpoutChance=水の噴出確率
+gui.createWorld.customize.setting.waterSpoutChance.tooltip=丘の側面や洞窟の壁に水の噴出が生成される1/xの確率
+gui.createWorld.customize.setting.lavaSpoutChance=溶岩の噴出
+確率
+gui.createWorld.customize.setting.lavaSpoutChance.tooltip=丘の側面や洞窟の壁に溶岩の噴出が生成される1/xの確率
 
 
-gui.createWorld.customize.title.PAGE3=Structure Settings
+gui.createWorld.customize.title.PAGE3=構造物の設定
 
-gui.createWorld.customize.category.VILLAGES=Village Settings
-gui.createWorld.customize.setting.useVillages=Villages
-gui.createWorld.customize.setting.useVillages.tooltip=Enable village generation
-gui.createWorld.customize.setting.villageDistance=Village Distance
-gui.createWorld.customize.setting.villageDistance.tooltip=The minimum distance between villages
-gui.createWorld.customize.setting.villageSize=Village Size
-gui.createWorld.customize.setting.villageSize.tooltip=Adjusts the average size of villages
+gui.createWorld.customize.category.VILLAGES=村の設定
+gui.createWorld.customize.setting.useVillages=村
+gui.createWorld.customize.setting.useVillages.tooltip=村の生成を有効にします
+gui.createWorld.customize.setting.villageDistance=村の距離
+gui.createWorld.customize.setting.villageDistance.tooltip=村と村の最小距離
+gui.createWorld.customize.setting.villageSize=村のサイズ
+gui.createWorld.customize.setting.villageSize.tooltip=村の平均サイズを調整します
 
-gui.createWorld.customize.category.MINESHAFTS=Mineshaft Settings
-gui.createWorld.customize.setting.useMineShafts=Mineshafts
-gui.createWorld.customize.setting.useMineShafts.tooltip=Enable mineshaft generation
-gui.createWorld.customize.setting.mineShaftChance=Mineshaft Chance
-gui.createWorld.customize.setting.mineShaftChance.tooltip=The Chance that a mineshaft will generate
+gui.createWorld.customize.category.MINESHAFTS=廃坑の設定
+gui.createWorld.customize.setting.useMineShafts=廃坑
+gui.createWorld.customize.setting.useMineShafts.tooltip=廃坑の生成を有効にします
+gui.createWorld.customize.setting.mineShaftChance=廃坑の生成確率
+gui.createWorld.customize.setting.mineShaftChance.tooltip=廃坑が生成される確率
 
-gui.createWorld.customize.category.DUNGEONS=Dungeon Settings
-gui.createWorld.customize.setting.useDungeons=Dungeons
-gui.createWorld.customize.setting.useDungeons.tooltip=Enable dungeon generation
-gui.createWorld.customize.setting.dungeonChance=Dungeon Chance
-gui.createWorld.customize.setting.dungeonChance.tooltip=The chance that a dungeon will generate
+gui.createWorld.customize.category.DUNGEONS=ダンジョンの設定
+gui.createWorld.customize.setting.useDungeons=ダンジョン
+gui.createWorld.customize.setting.useDungeons.tooltip=ダンジョンの生成を有効にします
+gui.createWorld.customize.setting.dungeonChance=ダンジョンの生成確率
+gui.createWorld.customize.setting.dungeonChance.tooltip=ダンジョンが生成される確率
 
-gui.createWorld.customize.category.TEMPLES=Scattered Feature Settings
-gui.createWorld.customize.setting.useTemples=Scattered Features
-gui.createWorld.customize.setting.useTemples.tooltip=Enable scattered features (desert/jungle temples, witch huts, igloos, etc..)
-gui.createWorld.customize.setting.templeDistance=Temple Distance
-gui.createWorld.customize.setting.templeDistance.tooltip=The distance between scattered features
+gui.createWorld.customize.category.TEMPLES=分散型構造物の設定
+gui.createWorld.customize.setting.useTemples=分散型構造物
+gui.createWorld.customize.setting.useTemples.tooltip=分散型構造物（砂漠/ジャングルの寺院、魔女の家、イグルーなど）の生成を有効にします
+gui.createWorld.customize.setting.templeDistance=構造物の距離
+gui.createWorld.customize.setting.templeDistance.tooltip=分散型構造物間の距離
 
-gui.createWorld.customize.category.MONUMENTS=Ocean Monument Settings
-gui.createWorld.customize.setting.useMonuments=Ocean Monuments
-gui.createWorld.customize.setting.useMonuments.tooltip=Enable Ocean Monument generation
-gui.createWorld.customize.setting.monumentSeparation=Separation
-gui.createWorld.customize.setting.monumentSeparation.tooltip=Ocean Monument Separation
-gui.createWorld.customize.setting.monumentSpacing=Spacing
-gui.createWorld.customize.setting.monumentSpacing.tooltip=Ocean Monument Spacing
+gui.createWorld.customize.category.MONUMENTS=海底神殿の設定
+gui.createWorld.customize.setting.useMonuments=海底神殿
+gui.createWorld.customize.setting.useMonuments.tooltip=海底神殿の生成を有効にします
+gui.createWorld.customize.setting.monumentSeparation=分離
+gui.createWorld.customize.setting.monumentSeparation.tooltip=海底神殿の分離
+gui.createWorld.customize.setting.monumentSpacing=間隔
+gui.createWorld.customize.setting.monumentSpacing.tooltip=海底神殿の間隔
 
-gui.createWorld.customize.category.MANSIONS=Woodland Mansion Settings
-gui.createWorld.customize.setting.useMansions=Woodland Mansions
-gui.createWorld.customize.setting.useMansions.tooltip=Enable Woodland Mansion generation
+gui.createWorld.customize.category.MANSIONS=森の洋館の設定
+gui.createWorld.customize.setting.useMansions=森の洋館
+gui.createWorld.customize.setting.useMansions.tooltip=森の洋館の生成を有効にします
 # TODO [1.12]: mansionSeparation and mansionSpacing are likely to be removed
-gui.createWorld.customize.setting.mansionSeparation=Mansion Separation
-gui.createWorld.customize.setting.mansionSeparation.tooltip=The minimum distance between Woodland Mansions
-gui.createWorld.customize.setting.mansionSpacing=Mansion Spacing
-gui.createWorld.customize.setting.mansionSpacing.tooltip=The maximum distance between Woodland Mansions
+gui.createWorld.customize.setting.mansionSeparation=洋館の分離
+gui.createWorld.customize.setting.mansionSeparation.tooltip=森の洋館間の最小
+距離
+gui.createWorld.customize.setting.mansionSpacing=洋館の間隔
+gui.createWorld.customize.setting.mansionSpacing.tooltip=森の洋館間の最大距離
 
-gui.createWorld.customize.category.STRONGHOLDS=Stronghold Settings
-gui.createWorld.customize.setting.useStrongholds=Strongholds
-gui.createWorld.customize.setting.useStrongholds.tooltip=Enable Strongholds
-gui.createWorld.customize.setting.strongholdCount=Stronghold Count
-gui.createWorld.customize.setting.strongholdCount.tooltip=The amount of strongholds that will generate in a world
-gui.createWorld.customize.setting.strongholdDistance=Distance
-gui.createWorld.customize.setting.strongholdDistance.tooltip=Minimum distance between strongholds?
-gui.createWorld.customize.setting.strongholdSpread=Spread
-gui.createWorld.customize.setting.strongholdSpread.tooltip=Stronghold Spread
+gui.createWorld.customize.category.STRONGHOLDS=要塞の設定
+gui.createWorld.customize.setting.useStrongholds=要塞
+gui.createWorld.customize.setting.useStrongholds.tooltip=要塞の生成を有効にします
+gui.createWorld.customize.setting.strongholdCount=要塞の数
+gui.createWorld.customize.setting.strongholdCount.tooltip=ワールドに生成される要塞の数
+gui.createWorld.customize.setting.strongholdDistance=距離
+gui.createWorld.customize.setting.strongholdDistance.tooltip=要塞間の最小距離？
+gui.createWorld.customize.setting.strongholdSpread=拡散
+gui.createWorld.customize.setting.strongholdSpread.tooltip=要塞の拡散
 
 
-gui.createWorld.customize.title.PAGE4=Ore Generation Settings
+gui.createWorld.customize.title.PAGE4=鉱石生成の設定
 
-gui.createWorld.customize.category.DIRT=Dirt Generation Settings
-gui.createWorld.customize.setting.dirtSize=Dirt Size
-gui.createWorld.customize.setting.dirtSize.tooltip=The size of dirt pockets generted in the world
-gui.createWorld.customize.setting.dirtCount=Dirt Count
-gui.createWorld.customize.setting.dirtCount.tooltip=The amount of dirt pockets per chunk
-gui.createWorld.customize.setting.dirtMinHeight=Dirt Minimum Height
-gui.createWorld.customize.setting.dirtMinHeight.tooltip=The minimum height of dirt generation
-gui.createWorld.customize.setting.dirtMaxHeight=Dirt Maximum Height
-gui.createWorld.customize.setting.dirtMaxHeight.tooltip=The maximum height of dirt generation
+gui.createWorld.customize.category.DIRT=土の生成設定
+gui.createWorld.customize.setting.dirtSize=土のサイズ
+gui.createWorld.customize.setting.dirtSize.tooltip=ワールドに生成される土の塊のサイズ
+gui.createWorld.customize.setting.dirtCount=土の生成回数
+gui.createWorld.customize.setting.dirtCount.tooltip=チャンクごとの土の塊の生成回数
+gui.createWorld.customize.setting.dirtMinHeight=土の最小高さ
+gui.createWorld.customize.setting.dirtMinHeight.tooltip=土の生成の最小高さ
+gui.createWorld.customize.setting.dirtMaxHeight=土の最大高さ
+gui.createWorld.customize.setting.dirtMaxHeight.tooltip=土の生成の最大高さ
 
-gui.createWorld.customize.category.GRAVEL=Gravel Generation Settings
-gui.createWorld.customize.setting.gravelSize=Gravel Size
-gui.createWorld.customize.setting.gravelSize.tooltip=The size of gravel pockets generted in the world
-gui.createWorld.customize.setting.gravelCount=Gravel Count
-gui.createWorld.customize.setting.gravelCount.tooltip=The amount of gravel pockets per chunk
-gui.createWorld.customize.setting.gravelMinHeight=Gravel Minimum Height
-gui.createWorld.customize.setting.gravelMinHeight.tooltip=The minimum height of gravel generation
-gui.createWorld.customize.setting.gravelMaxHeight=Gravel Maximum Height
-gui.createWorld.customize.setting.gravelMaxHeight.tooltip=The maximum height of gravel generation
+gui.createWorld.customize.category.GRAVEL=砂利の生成設定
+gui.createWorld.customize.setting.gravelSize=砂利のサイズ
+gui.createWorld.customize.setting.gravelSize.tooltip=ワールドに生成される砂利の塊のサイズ
+gui.createWorld.customize.setting.gravelCount=砂利の生成回数
+gui.createWorld.customize.setting.gravelCount.tooltip=チャンクごとの砂利の塊の生成回数
+gui.createWorld.customize.setting.gravelMinHeight=砂利の最小高さ
+gui.createWorld.customize.setting.gravelMinHeight.tooltip=砂利の生成の最小高さ
+gui.createWorld.customize.setting.gravelMaxHeight=砂利の最大高さ
+gui.createWorld.customize.setting.gravelMaxHeight.tooltip=砂利の生成の最大高さ
 
-gui.createWorld.customize.category.GRANITE=Granite Generation Settings
-gui.createWorld.customize.setting.graniteSize=Granite Size
-gui.createWorld.customize.setting.graniteSize.tooltip=The size of granite pockets generted in the world
-gui.createWorld.customize.setting.graniteCount=Granite Count
-gui.createWorld.customize.setting.graniteCount.tooltip=The amount of granite pockets per chunk
-gui.createWorld.customize.setting.graniteMinHeight=Granite Minimum Height
-gui.createWorld.customize.setting.graniteMinHeight.tooltip=The minimum height of granite generation
-gui.createWorld.customize.setting.graniteMaxHeight=Granite Maximum Height
-gui.createWorld.customize.setting.graniteMaxHeight.tooltip=The maximum height of granite generation
+gui.createWorld.customize.category.GRANITE=花崗岩の生成設定
+gui.createWorld.customize.setting.graniteSize=花崗岩のサイズ
+gui.createWorld.customize.setting.graniteSize.tooltip=ワールドに生成される花崗岩の塊のサイズ
+gui.createWorld.customize.setting.graniteCount=花崗岩の生成回数
+gui.createWorld.customize.setting.graniteCount.tooltip=チャンクごとの花崗岩の塊の生成回数
+gui.createWorld.customize.setting.graniteMinHeight=花崗岩の最小高さ
+gui.createWorld.customize.setting.graniteMinHeight.tooltip=花崗岩の生成の最小高さ
+gui.createWorld.customize.setting.graniteMaxHeight=花崗岩の最大高さ
+gui.createWorld.customize.setting.graniteMaxHeight.tooltip=花崗岩の生成の最大高さ
 
-gui.createWorld.customize.category.DIORITE=Diorite Generation Settings
-gui.createWorld.customize.setting.dioriteSize=Diorite Size
-gui.createWorld.customize.setting.dioriteSize.tooltip=The size of diorite pockets generted in the world
-gui.createWorld.customize.setting.dioriteCount=Diorite Count
-gui.createWorld.customize.setting.dioriteCount.tooltip=The amount of diorite pockets per chunk
-gui.createWorld.customize.setting.dioriteMinHeight=Diorite Minimum Height
-gui.createWorld.customize.setting.dioriteMinHeight.tooltip=The minimum height of diorite generation
-gui.createWorld.customize.setting.dioriteMaxHeight=Diorite Maximum Height
-gui.createWorld.customize.setting.dioriteMaxHeight.tooltip=The maximum height of diorite generation
+gui.createWorld.customize.category.DIORITE=閃緑岩
+の生成設定
+gui.createWorld.customize.setting.dioriteSize=閃緑岩のサイズ
+gui.createWorld.customize.setting.dioriteSize.tooltip=ワールドに生成される閃緑岩の塊のサイズ
+gui.createWorld.customize.setting.dioriteCount=閃緑岩の生成回数
+gui.createWorld.customize.setting.dioriteCount.tooltip=チャンクごとの閃緑岩の塊の生成回数
+gui.createWorld.customize.setting.dioriteMinHeight=閃緑岩の最小高さ
+gui.createWorld.customize.setting.dioriteMinHeight.tooltip=閃緑岩の生成の最小高さ
+gui.createWorld.customize.setting.dioriteMaxHeight=閃緑岩の最大高さ
+gui.createWorld.customize.setting.dioriteMaxHeight.tooltip=閃緑岩の生成の最大高さ
 
-gui.createWorld.customize.category.ANDESITE=Andesite Generation Settings
-gui.createWorld.customize.setting.andesiteSize=Andesite Size
-gui.createWorld.customize.setting.andesiteSize.tooltip=The size of andesite pockets generted in the world
-gui.createWorld.customize.setting.andesiteCount=Andesite Count
-gui.createWorld.customize.setting.andesiteCount.tooltip=The amount of andesite pockets per chunk
-gui.createWorld.customize.setting.andesiteMinHeight=Andesite Minimum Height
-gui.createWorld.customize.setting.andesiteMinHeight.tooltip=The minimum height of andesite generation
-gui.createWorld.customize.setting.andesiteMaxHeight=Andesite Maximum Height
-gui.createWorld.customize.setting.andesiteMaxHeight.tooltip=The maximum height of andesite generation
+gui.createWorld.customize.category.ANDESITE=安山岩の生成設定
+gui.createWorld.customize.setting.andesiteSize=安山岩のサイズ
+gui.createWorld.customize.setting.andesiteSize.tooltip=ワールドに生成される安山岩の塊のサイズ
+gui.createWorld.customize.setting.andesiteCount=安山岩の生成回数
+gui.createWorld.customize.setting.andesiteCount.tooltip=チャンクごとの安山岩の塊の生成回数
+gui.createWorld.customize.setting.andesiteMinHeight=安山岩の最小高さ
+gui.createWorld.customize.setting.andesiteMinHeight.tooltip=安山岩の生成の最小高さ
+gui.createWorld.customize.setting.andesiteMaxHeight=安山岩の最大高さ
+gui.createWorld.customize.setting.andesiteMaxHeight.tooltip=安山岩の生成の最大高さ
 
-gui.createWorld.customize.category.COAL=Coal Generation Settings
-gui.createWorld.customize.setting.coalSize=Coal Size
-gui.createWorld.customize.setting.coalSize.tooltip=The size of coal veins generted in the world
-gui.createWorld.customize.setting.coalCount=Coal Count
-gui.createWorld.customize.setting.coalCount.tooltip=The amount of coal veins per chunk
-gui.createWorld.customize.setting.coalMinHeight=Coal Minimum Height
-gui.createWorld.customize.setting.coalMinHeight.tooltip=The minimum height of coal generation
-gui.createWorld.customize.setting.coalMaxHeight=Coal Maximum Height
-gui.createWorld.customize.setting.coalMaxHeight.tooltip=The maximum height of coal generation
+gui.createWorld.customize.category.COAL=石炭の生成設定
+gui.createWorld.customize.setting.coalSize=石炭のサイズ
+gui.createWorld.customize.setting.coalSize.tooltip=ワールドに生成される石炭の鉱脈のサイズ
+gui.createWorld.customize.setting.coalCount=石炭の生成回数
+gui.createWorld.customize.setting.coalCount.tooltip=チャンクごとの石炭の鉱脈の生成回数
+gui.createWorld.customize.setting.coalMinHeight=石炭の最小高さ
+gui.createWorld.customize.setting.coalMinHeight.tooltip=石炭の生成の最小高さ
+gui.createWorld.customize.setting.coalMaxHeight=石炭の最大高さ
+gui.createWorld.customize.setting.coalMaxHeight.tooltip=石炭の生成の最大高さ
 
-gui.createWorld.customize.category.IRON=Iron Generation Settings
-gui.createWorld.customize.setting.ironSize=Iron Size
-gui.createWorld.customize.setting.ironSize.tooltip=The size of iron veins generted in the world
-gui.createWorld.customize.setting.ironCount=Iron Count
-gui.createWorld.customize.setting.ironCount.tooltip=The amount of  veins per chunk
-gui.createWorld.customize.setting.ironMinHeight=Iron Minimum Height
-gui.createWorld.customize.setting.ironMinHeight.tooltip=The minimum height of iron generation
-gui.createWorld.customize.setting.ironMaxHeight=Iron Maximum Height
-gui.createWorld.customize.setting.ironMaxHeight.tooltip=The maximum height of iron generation
+gui.createWorld.customize.category.IRON=鉄の生成設定
+gui.createWorld.customize.setting.ironSize=鉄のサイズ
+gui.createWorld.customize.setting.ironSize.tooltip=ワールドに生成される鉄の鉱脈
+のサイズ
+gui.createWorld.customize.setting.ironCount=鉄の生成回数
+gui.createWorld.customize.setting.ironCount.tooltip=チャンクごとの鉱脈の生成回数
+gui.createWorld.customize.setting.ironMinHeight=鉄の最小高さ
+gui.createWorld.customize.setting.ironMinHeight.tooltip=鉄の生成の最小高さ
+gui.createWorld.customize.setting.ironMaxHeight=鉄の最大高さ
+gui.createWorld.customize.setting.ironMaxHeight.tooltip=鉄の生成の最大高さ
 
-gui.createWorld.customize.category.GOLD=Gold Generation Settings
-gui.createWorld.customize.setting.goldSize=Gold Size
-gui.createWorld.customize.setting.goldSize.tooltip=The size of gold veins generted in the world
-gui.createWorld.customize.setting.goldCount=Gold Count
-gui.createWorld.customize.setting.goldCount.tooltip=The amount of gold veins per chunk
-gui.createWorld.customize.setting.goldMinHeight=Gold Minimum Height
-gui.createWorld.customize.setting.goldMinHeight.tooltip=The minimum height of gold generation
-gui.createWorld.customize.setting.goldMaxHeight=Gold Maximum Height
-gui.createWorld.customize.setting.goldMaxHeight.tooltip=The maximum height of gold generation
+gui.createWorld.customize.category.GOLD=金の生成設定
+gui.createWorld.customize.setting.goldSize=金のサイズ
+gui.createWorld.customize.setting.goldSize.tooltip=ワールドに生成される金の鉱脈のサイズ
+gui.createWorld.customize.setting.goldCount=金の生成回数
+gui.createWorld.customize.setting.goldCount.tooltip=チャンクごとの金の鉱脈の生成回数
+gui.createWorld.customize.setting.goldMinHeight=金の最小高さ
+gui.createWorld.customize.setting.goldMinHeight.tooltip=金の生成の最小高さ
+gui.createWorld.customize.setting.goldMaxHeight=金の最大高さ
+gui.createWorld.customize.setting.goldMaxHeight.tooltip=金の生成の最大高さ
 
-gui.createWorld.customize.category.REDSTONE=Redstone Generation Settings
-gui.createWorld.customize.setting.redstoneSize=Redstone Size
-gui.createWorld.customize.setting.redstoneSize.tooltip=The size of redstone veins generted in the world
-gui.createWorld.customize.setting.redstoneCount=Redstone Count
-gui.createWorld.customize.setting.redstoneCount.tooltip=The amount of redstone veins per chunk
-gui.createWorld.customize.setting.redstoneMinHeight=Redstone Minimum Height
-gui.createWorld.customize.setting.redstoneMinHeight.tooltip=The minimum height of redstone generation
-gui.createWorld.customize.setting.redstoneMaxHeight=Redstone Maximum Height
-gui.createWorld.customize.setting.redstoneMaxHeight.tooltip=The maximum height of redstone generation
+gui.createWorld.customize.category.REDSTONE=レッドストーンの生成設定
+gui.createWorld.customize.setting.redstoneSize=レッドストーンのサイズ
+gui.createWorld.customize.setting.redstoneSize.tooltip=ワールドに生成されるレッドストーンの鉱脈のサイズ
+gui.createWorld.customize.setting.redstoneCount=レッドストーンの生成回数
+gui.createWorld.customize.setting.redstoneCount.tooltip=チャンクごとのレッドストーンの鉱脈の生成回数
+gui.createWorld.customize.setting.redstoneMinHeight=レッドストーンの最小高さ
+gui.createWorld.customize.setting.redstoneMinHeight.tooltip=レッドストーンの生成の最小高さ
+gui.createWorld.customize.setting.redstoneMaxHeight=レッドストーンの最大高さ
+gui.createWorld.customize.setting.redstoneMaxHeight.tooltip=レッドストーンの生成の最大高さ
 
-gui.createWorld.customize.category.DIAMOND=Diamond Generation Settings
-gui.createWorld.customize.setting.diamondSize=Diamond Size
-gui.createWorld.customize.setting.diamondSize.tooltip=The size of diamond veins generted in the world
-gui.createWorld.customize.setting.diamondCount=Diamond Count
-gui.createWorld.customize.setting.diamondCount.tooltip=The amount of diamond veins per chunk
-gui.createWorld.customize.setting.diamondMinHeight=Diamond Minimum Height
-gui.createWorld.customize.setting.diamondMinHeight.tooltip=The minimum height of diamond generation
-gui.createWorld.customize.setting.diamondMaxHeight=Diamond Maximum Height
-gui.createWorld.customize.setting.diamondMaxHeight.tooltip=The maximum height of diamond generation
+gui.createWorld.customize.category.DIAMOND=ダイヤモンドの生成設定
+gui.createWorld.customize.setting.diamondSize=ダイヤモンドのサイズ
+gui.createWorld.customize.setting.diamondSize.tooltip=ワールドに生成されるダイヤモンドの鉱脈
+のサイズ
+gui.createWorld.customize.setting.diamondCount=ダイヤモンドの生成回数
+gui.createWorld.customize.setting.diamondCount.tooltip=チャンクごとのダイヤモンドの鉱脈の生成回数
+gui.createWorld.customize.setting.diamondMinHeight=ダイヤモンドの最小高さ
+gui.createWorld.customize.setting.diamondMinHeight.tooltip=ダイヤモンドの生成の最小高さ
+gui.createWorld.customize.setting.diamondMaxHeight=ダイヤモンドの最大高さ
+gui.createWorld.customize.setting.diamondMaxHeight.tooltip=ダイヤモンドの生成の最大高さ
 
-gui.createWorld.customize.category.LAPIS=Lapis Lazuli Generation Settings
-gui.createWorld.customize.setting.lapisSize=Lapis Lazuli Size
-gui.createWorld.customize.setting.lapisSize.tooltip=The size of lapis lazuli veins generted in the world
-gui.createWorld.customize.setting.lapisCount=Lapis Lazuli Count
-gui.createWorld.customize.setting.lapisCount.tooltip=The amount of lapis lazuli veins per chunk
-gui.createWorld.customize.setting.lapisCenterHeight=Lapis Lazuli Height
-gui.createWorld.customize.setting.lapisCenterHeight.tooltip=The average height of lapis lazuli generation
-gui.createWorld.customize.setting.lapisSpread=Lapis Lazuli Spread
-gui.createWorld.customize.setting.lapisSpread.tooltip=The average height spread of lapis lazuli generation
+gui.createWorld.customize.category.LAPIS=ラピスラズリの生成設定
+gui.createWorld.customize.setting.lapisSize=ラピスラズリのサイズ
+gui.createWorld.customize.setting.lapisSize.tooltip=ワールドに生成されるラピスラズリの鉱脈のサイズ
+gui.createWorld.customize.setting.lapisCount=ラピスラズリの生成回数
+gui.createWorld.customize.setting.lapisCount.tooltip=チャンクごとのラピスラズリの鉱脈の生成回数
+gui.createWorld.customize.setting.lapisCenterHeight=ラピスラズリの平均高さ
+gui.createWorld.customize.setting.lapisCenterHeight.tooltip=ラピスラズリの生成の平均高さ
+gui.createWorld.customize.setting.lapisSpread=ラピスラズリの拡散
+gui.createWorld.customize.setting.lapisSpread.tooltip=ラピスラズリの生成の平均高さの拡散
 
 
 #-----------------------------
 # GUI Config (Note: tooltips that are blank should remain blank)
 #-----------------------------
-rtgconfig.title=RTG Global Config Settings
-rtgconfig.client=Client Settings
-rtgconfig.client.tooltip=Settings relevant to the client
-rtgconfig.client.worldTypeNotification=WorldType Notification
-rtgconfig.client.worldTypeNotification.tooltip=When enabled, this will display an informational message about RTG when entering the Customize World screen.\nThis will display once and automatically disable itself.
-rtgconfig.client.rtgWorldTypeByDefault=RTG WorldType By Default
-rtgconfig.client.rtgWorldTypeByDefault.tooltip=Automatically select the RTG world type when creating a new world.
-rtgconfig.common=Common Settings
-rtgconfig.common.tooltip=Settings relevant to the server
-rtgconfig.common.debug=Debug Settings
+rtgconfig.title=RTG グローバル設定
+rtgconfig.client=クライアント設定
+rtgconfig.client.tooltip=クライアントに関連する設定
+rtgconfig.client.worldTypeNotification=ワールドタイプ通知
+rtgconfig.client.worldTypeNotification.tooltip=有効にすると、ワールドカスタマイズ画面に入るときにRTGに関する情報メッセージが表示されます。\nこれは
+一度表示され、自動的に無効になります。
+rtgconfig.client.rtgWorldTypeByDefault=デフォルトでRTGワールドタイプ
+rtgconfig.client.rtgWorldTypeByDefault.tooltip=新しいワールドを作成するときに、RTGワールドタイプを自動的に選択します。
+rtgconfig.common=共通設定
+rtgconfig.common.tooltip=サーバーに関連する設定
+rtgconfig.common.debug=デバッグ設定
 rtgconfig.common.debug.tooltip=
-rtgconfig.common.debug.enableDebugging=Enable special debug logging
-rtgconfig.common.debug.enableDebugging.tooltip=!This setting has a severe performance penalty. Only enable if you know what you are doing!
-rtgconfig.common.debug.patchBiome=Patch Biome
-rtgconfig.common.debug.patchBiome.tooltip=If RTG encounters an unsupported biome it will generate this biome instead.\nThis uses the standard ResourceLocation format: mod_id:biome_registry_name
-rtgconfig.common.surface=Biome Surface Settings
+rtgconfig.common.debug.enableDebugging=特別なデバッグログを有効にする
+rtgconfig.common.debug.enableDebugging.tooltip=!この設定は深刻なパフォーマンスの低下を招きます。
+自分が何をしているかわかっている場合にのみ有効にしてください！
+rtgconfig.common.debug.patchBiome=代替バイオーム
+rtgconfig.common.debug.patchBiome.tooltip=RTGがサポートされていないバイオームに遭遇した場合、代わりにこのバイオームを生成します。\n標準のResourceLocation形式: mod_id:biome_registry_nameを使用します
+rtgconfig.common.surface=バイオームの地表設定
 rtgconfig.common.surface.tooltip=
-rtgconfig.common.surface.lushRiverbanksInDesert=Lush Riverbanks In Desert
-rtgconfig.common.surface.lushRiverbanksInDesert.tooltip=Set this to FALSE to prevent RTG from generating lush river bank decorations in hot biomes,\nlike Desert and Mesa. Lush decorations consist of tallgrass, trees, shrubs, and other flora.
-rtgconfig.common.surface.surfaceBleedRadius=Surface Blend Radius
-rtgconfig.common.surface.surfaceBleedRadius.tooltip=The maximum distance surfaces will blend into eacother if enabled for two adjacent biomes.\nBy default, surface blending is only enabled for beaches. You can control that in biome settings
-rtgconfig.common.surface.shadowStoneBlock=Shadow Stone Block
-rtgconfig.common.surface.shadowStoneBlock.tooltip=The block to use for stone terrain shadowing, typically seen on the cliffs of stone mountains.
-rtgconfig.common.surface.shadowDesertBlock=Shadow Desert Block
-rtgconfig.common.surface.shadowDesertBlock.tooltip=The block to use for desert terrain shadowing, typically seen on the cliffs of desert mountains.
-rtgconfig.common.trees=RTG Tree Settings
+rtgconfig.common.surface.lushRiverbanksInDesert=砂漠に豊かな川岸を生成
+rtgconfig.common.surface.lushRiverbanksInDesert.tooltip=これをFALSEに設定すると、RTGが砂漠やメサなどの暑いバイオームで、豊かな川岸の装飾を生成するのを防ぎます。\n
+豊かな装飾には、トールグラス、樹木、低木、その他の植物が含まれます。
+rtgconfig.common.surface.surfaceBleedRadius=地表ブレンド半径
+rtgconfig.common.surface.surfaceBleedRadius.tooltip=2つの隣接するバイオームで有効になっている場合、地表がお互いにブレンドする最大距離です。\nデフォルトでは、地表のブレンドはビーチでのみ有効になっています。
+これはバイオーム設定で制御できます
+rtgconfig.common.surface.shadowStoneBlock=影の石ブロック
+rtgconfig.common.surface.shadowStoneBlock.tooltip=石の山崖などでよく見られる、石の地形の陰影付けに使用するブロックです。
+rtgconfig.common.surface.shadowDesertBlock=影の砂漠ブロック
+rtgconfig.common.surface.shadowDesertBlock.tooltip=砂漠の山崖などでよく見られる、砂漠の地形の陰影付けに使用するブロックです。
+rtgconfig.common.trees=RTG樹木の設定
 rtgconfig.common.trees.tooltip=
-rtgconfig.common.trees.rtgTreesFromSaplings=RTG Trees From Saplings
-rtgconfig.common.trees.rtgTreesFromSaplings.tooltip=Set this to TRUE to allow RTG's custom trees to grow from vanilla saplings.\nRTG's custom trees can be grown only from the saplings that their leaves would drop, and only in the biomes where they naturally generate.
-rtgconfig.common.trees.rtgTreeChance=RTG Tree Chance
-rtgconfig.common.trees.rtgTreeChance.tooltip=A 1/x chance that a vanilla sapling will grow an RTG custom tree.
-rtgconfig.common.trees.treeDensityMultiplier=Tree Density Multiplier
-rtgconfig.common.trees.treeDensityMultiplier.tooltip=This setting allows you to increase/decrease the number of RTG trees that generate globally.\nThis setting only affects trees generated by RTG. Trees generated by a biome's decorator will adhere to their own density rules. You can override this setting on a per-biome basis by using the biome configs.
-rtgconfig.common.trees.treesCanGenerateOnSand=Trees Can Generate On Sand
-rtgconfig.common.trees.treesCanGenerateOnSand.tooltip=Set this to FALSE to prevent trees from generating on sand.\nThis setting only affects trees generated by RTG. Trees generated by a biome's decorator will adhere to their own generation rules. (RTG's Palm Trees ignore this setting.)
-rtgconfig.common.trees.shrubsBelowSurface=Shrubs Below Surface
-rtgconfig.common.trees.shrubsBelowSurface.tooltip=Set this to FALSE to prevent shrub trunks from generating below the surface.
-rtgconfig.common.trees.barkCoveredLogs=Bark Covered Logs
-rtgconfig.common.trees.barkCoveredLogs.tooltip=Set this to FALSE to prevent the trunks of RTG trees from using the 'all-bark' texture model.\nFor more information, visit http://minecraft.gamepedia.com/Wood#Block_data
+rtgconfig.common.trees.rtgTreesFromSaplings=苗木からRTG樹木を成長させる
+rtgconfig.common.trees.rtgTreesFromSaplings.tooltip=これをTRUEに設定すると、バニラの苗木からRTGのカスタム樹木が成長できるようになります。\nRTGのカスタム樹木は、その葉をドロップする苗木から、そしてそれらが自然に生成されるバイオームでのみ成長できます。
+rtgconfig.common.trees.rtgTreeChance=RTG樹木の生成確率
+rtgconfig.common.trees.rtgTreeChance.tooltip=バニラの苗木からRTGカスタム樹木が成長する1/xの確率。
+rtgconfig.common.trees.treeDensityMultiplier=樹木密度倍率
+rtgconfig.common.trees.treeDensityMultiplier.tooltip=この設定により、グローバルに生成されるRTG樹木の数を増減できます。\nこの設定は、RTGによって生成される樹木のみに影響します。
+バイオームのデコレーターによって生成される樹木は、独自の密度ルールに従います。
+この設定は、バイオーム設定を使用してバイオームごとに上書きできます。
+rtgconfig.common.trees.treesCanGenerateOnSand=砂の上に樹木を生成
+rtgconfig.common.trees.treesCanGenerateOnSand.tooltip=これをFALSEに設定すると、砂の上に樹木が生成されるのを防ぎます。\nこの設定は、RTGによって生成される樹木のみに影響します。
+バイオームのデコレーターによって生成される樹木は、独自の生成ルールに従います。
+（RTGのヤシの木はこの設定を無視します。）
+rtgconfig.common.trees.shrubsBelowSurface=地表下に低木を生成
+rtgconfig.common.trees.shrubsBelowSurface.tooltip=これをFALSEに設定すると、低木の幹が地表下に生成されるのを防ぎます。
+rtgconfig.common.trees.barkCoveredLogs=樹皮に覆われた原木
+rtgconfig.common.trees.barkCoveredLogs.tooltip=これをFALSEに設定すると、RTG樹木の幹が「樹皮のみ」のテクスチャモデルを使用するのを防ぎます。\n詳細については、http://minecraft.gamepedia.com/Wood#Block_dataをご覧ください
 
-rtg.command.prefix.error=Error
-rtg.command.whereami.error=This command is meant for players in the world
+rtg.command.prefix.error=エラー
+rtg.command.whereami.error=このコマンドはワールド内のプレイヤーを対象としています
