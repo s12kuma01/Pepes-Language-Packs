@@ -1,0 +1,603 @@
+##########################
+#    オーバーワールドブロック    #
+##########################
+
+tile.natura.clouds.white.name=雲
+tile.natura.clouds.white.tooltip=とても軽くてふわふわ！\n落下時に救ってくれる
+tile.natura.clouds.dark.name=暗黒の雲
+tile.natura.clouds.dark.tooltip=とても軽くてふわふわ！\n雷を起こす
+tile.natura.clouds.ash.name=灰の雲
+tile.natura.clouds.ash.tooltip=とても軽くてふわふわ！\n3x3で木炭に変換
+tile.natura.clouds.sulfur.name=硫黄の雲
+tile.natura.clouds.sulfur.tooltip=とても軽くてふわふわ！\n2x2で硫黄に変換
+
+tile.natura.overworld_logs.maple.name=メイプルの原木
+tile.natura.overworld_logs.maple.tooltip=少し甘い
+tile.natura.overworld_logs.silverbell.name=シルバーベルの原木
+tile.natura.overworld_logs.silverbell.tooltip=銀の鈴
+tile.natura.overworld_logs.amaranth.name=アマランサスの原木
+tile.natura.overworld_logs.amaranth.tooltip=木の心
+tile.natura.overworld_logs.tiger.name=タイガーウッドの原木
+tile.natura.overworld_logs.tiger.tooltip=野生の紋様
+
+tile.natura.overworld_logs2.willow.name=ウィローの原木
+tile.natura.overworld_logs2.willow.tooltip=嘆きの木
+tile.natura.overworld_logs2.eucalyptus.name=ユーカリの原木
+tile.natura.overworld_logs2.eucalyptus.tooltip=桃色の木材
+tile.natura.overworld_logs2.sakura.name=桜の原木
+tile.natura.overworld_logs2.sakura.tooltip=花桜
+tile.natura.overworld_logs2.hopseed.name=ホップシードの原木
+tile.natura.overworld_logs2.hopseed.tooltip=上昇するグリッチ
+
+tile.natura.overworld_leaves.maple.name=メイプルの葉
+tile.natura.overworld_leaves.maple.tooltip=少し甘い
+tile.natura.overworld_leaves.silverbell.name=シルバーベルの葉
+tile.natura.overworld_leaves.silverbell.tooltip=銀の鈴
+tile.natura.overworld_leaves.amaranth.name=アマランサスの葉
+tile.natura.overworld_leaves.amaranth.tooltip=木の心
+tile.natura.overworld_leaves.tiger.name=タイガーウッドの葉
+tile.natura.overworld_leaves.tiger.tooltip=野生の紋様
+
+tile.natura.overworld_leaves2.willow.name=ウィローの葉
+tile.natura.overworld_leaves2.willow.tooltip=嘆きの木
+tile.natura.overworld_leaves2.eucalyptus.name=ユーカリの葉
+tile.natura.overworld_leaves2.eucalyptus.tooltip=桃色の木材
+tile.natura.overworld_leaves2.sakura.name=桜の葉
+tile.natura.overworld_leaves2.sakura.tooltip=花桜
+tile.natura.overworld_leaves2.hopseed.name=ホップシードの葉
+tile.natura.overworld_leaves2.hopseed.tooltip=上昇するグリッチ
+
+tile.natura.overworld_sapling.maple.name=メイプルの苗木
+tile.natura.overworld_sapling.maple.tooltip=少し甘い
+tile.natura.overworld_sapling.silverbell.name=シルバーベルの苗木
+tile.natura.overworld_sapling.silverbell.tooltip=銀の鈴
+tile.natura.overworld_sapling.amaranth.name=アマランサスの苗木
+tile.natura.overworld_sapling.amaranth.tooltip=木の心
+tile.natura.overworld_sapling.tiger.name=タイガーウッドの苗木
+tile.natura.overworld_sapling.tiger.tooltip=野生の紋様
+
+tile.natura.overworld_sapling2.willow.name=ウィローの苗木
+tile.natura.overworld_sapling2.willow.tooltip=嘆きの木
+tile.natura.overworld_sapling2.eucalyptus.name=ユーカリの苗木
+tile.natura.overworld_sapling2.eucalyptus.tooltip=桃色の木材
+tile.natura.overworld_sapling2.sakura.name=桜の苗木
+tile.natura.overworld_sapling2.sakura.tooltip=花桜
+tile.natura.overworld_sapling2.hopseed.name=ホップシードの苗木
+tile.natura.overworld_sapling2.hopseed.tooltip=上昇するグリッチ
+
+tile.natura.redwood_logs.bark.name=レッドウッドの樹皮
+tile.natura.redwood_logs.bark.tooltip=燃やして木炭にするか\n隠し扉を作る
+tile.natura.redwood_logs.heart.name=レッドウッド
+tile.natura.redwood_logs.heart.tooltip=木の心臓部
+tile.natura.redwood_logs.root.name=レッドウッドの根
+tile.natura.redwood_logs.root.tooltip=木の根
+
+tile.natura.redwood_leaves.normal.name=レッドウッドの葉
+tile.natura.redwood_leaves.normal.tooltip=巨大セコイア
+
+tile.natura.redwood_sapling.redwood.name=レッドウッドの苗木
+tile.natura.redwood_sapling.redwood.tooltip=7x7に植える\n成長に数日かかる
+
+tile.natura.apple_log.apple.name=リンゴの原木
+tile.natura.apple_log.apple.tooltip=芯までリンゴ
+
+tile.natura.apple_leaves.normal.name=リンゴの葉
+tile.natura.apple_leaves.normal.tooltip=芯までリンゴ
+tile.natura.apple_leaves.flowering.name=リンゴの葉
+tile.natura.apple_leaves.flowering.tooltip=芯までリンゴ\n花が咲く
+tile.natura.apple_leaves.fruit.name=リンゴの葉
+tile.natura.apple_leaves.fruit.tooltip=芯までリンゴ\nリンゴが実る
+tile.natura.apple_leaves.golden_fruit.name=リンゴの葉
+tile.natura.apple_leaves.golden_fruit.tooltip=芯までリンゴ\n金のリンゴが実る
+
+tile.natura.apple_sapling.apple.name=リンゴの苗木
+tile.natura.apple_sapling.apple.tooltip=芯までリンゴ
+
+tile.natura.colored_grass.topiary.name=トピアリー草
+tile.natura.colored_grass.bluegrass.name=ブルーグラス
+tile.natura.colored_grass.autumnal.name=秋の草
+
+tile.natura.colored_grass_slab.topiary.name=トピアリー草のハーフブロック
+tile.natura.colored_grass_slab.bluegrass.name=ブルーグラスのハーフブロック
+tile.natura.colored_grass_slab.autumnal.name=秋の草のハーフブロック
+
+tile.natura.colored_grass_stairs_topiary.name=トピアリー草の階段
+tile.natura.colored_grass_stairs_bluegrass.name=ブルーグラスの階段
+tile.natura.colored_grass_stairs_autumnal.name=秋の草の階段
+
+tile.natura.overworld_planks.maple.name=メイプルの木材
+tile.natura.overworld_planks.maple.tooltip=少し甘い
+tile.natura.overworld_planks.silverbell.name=シルバーベルの木材
+tile.natura.overworld_planks.silverbell.tooltip=銀の鈴
+tile.natura.overworld_planks.amaranth.name=アマランサスの木材
+tile.natura.overworld_planks.amaranth.tooltip=木の心
+tile.natura.overworld_planks.tiger.name=タイガーウッドの木材
+tile.natura.overworld_planks.tiger.tooltip=野生の紋様
+tile.natura.overworld_planks.willow.name=ウィローの木材
+tile.natura.overworld_planks.willow.tooltip=嘆きの木
+tile.natura.overworld_planks.eucalyptus.name=ユーカリの木材
+tile.natura.overworld_planks.eucalyptus.tooltip=桃色の木材
+tile.natura.overworld_planks.sakura.name=桜の木材
+tile.natura.overworld_planks.sakura.tooltip=花桜
+tile.natura.overworld_planks.hopseed.name=ホップシードの木材
+tile.natura.overworld_planks.hopseed.tooltip=上昇するグリッチ
+tile.natura.overworld_planks.redwood.name=レッドウッドの木材
+tile.natura.overworld_planks.redwood.tooltip=巨大セコイア
+tile.natura.overworld_planks.apple.name=リンゴの木材
+tile.natura.overworld_planks.apple.tooltip=芯までリンゴ
+
+tile.natura.overworld_slab.maple.name=メイプルのハーフブロック
+tile.natura.overworld_slab.maple.tooltip=少し甘い
+tile.natura.overworld_slab.silverbell.name=シルバーベルのハーフブロック
+tile.natura.overworld_slab.silverbell.tooltip=銀の鈴
+tile.natura.overworld_slab.amaranth.name=アマランサスのハーフブロック
+tile.natura.overworld_slab.amaranth.tooltip=木の心
+tile.natura.overworld_slab.tiger.name=タイガーウッドのハーフブロック
+tile.natura.overworld_slab.tiger.tooltip=野生の紋様
+tile.natura.overworld_slab.willow.name=ウィローのハーフブロック
+tile.natura.overworld_slab.willow.tooltip=嘆きの木
+tile.natura.overworld_slab2.eucalyptus.name=ユーカリのハーフブロック
+tile.natura.overworld_slab2.eucalyptus.tooltip=桃色の木材
+tile.natura.overworld_slab2.sakura.name=桜のハーフブロック
+tile.natura.overworld_slab2.sakura.tooltip=花桜
+tile.natura.overworld_slab2.hopseed.name=ホップシードのハーフブロック
+tile.natura.overworld_slab2.hopseed.tooltip=上昇するグリッチ
+tile.natura.overworld_slab2.redwood.name=レッドウッドのハーフブロック
+tile.natura.overworld_slab2.redwood.tooltip=巨大セコイア
+tile.natura.overworld_slab2.apple.name=リンゴのハーフブロック
+tile.natura.overworld_slab2.apple.tooltip=芯までリンゴ
+
+tile.natura.overworld_stairs_maple.name=メイプルの階段
+tile.natura.overworld_stairs_silverbell.name=シルバーベルの階段
+tile.natura.overworld_stairs_amaranth.name=アマランサスの階段
+tile.natura.overworld_stairs_tiger.name=タイガーウッドの階段
+tile.natura.overworld_stairs_willow.name=ウィローの階段
+tile.natura.overworld_stairs_eucalyptus.name=ユーカリの階段
+tile.natura.overworld_stairs_hopseed.name=ホップシードの階段
+tile.natura.overworld_stairs_sakura.name=桜の階段
+tile.natura.overworld_stairs_redwood.name=レッドウッドの階段
+tile.natura.overworld_stairs_apple.name=リンゴの階段
+
+tile.natura.overworld_berrybush_raspberry.name=ラズベリーの茂み
+tile.natura.overworld_berrybush_raspberry.tooltip=甘くて赤い\n暖かい地域に生える
+tile.natura.overworld_berrybush_blueberry.name=ブルーベリーの茂み
+tile.natura.overworld_berrybush_blueberry.tooltip=酸っぱくて青い\n温帯地域に生える
+tile.natura.overworld_berrybush_blackberry.name=ブラックベリーの茂み
+tile.natura.overworld_berrybush_blackberry.tooltip=甘くて黒い\n湿った地域に生える
+tile.natura.overworld_berrybush_maloberry.name=マロベリーの茂み
+tile.natura.overworld_berrybush_maloberry.tooltip=美味しくて黄オレンジ色\n寒い地域に生える
+
+tile.natura.bluebells_flower.name=ブルーベル
+
+tile.natura.saguaro.name=サグアロカクタス
+tile.natura.saguaro.tooltip=木のように成長する\n雨の後に実がなる
+tile.natura.saguaro_baby.name=子サグアロカクタス
+tile.natura.saguaro_baby.tooltip=木のように成長する\n雨の後に実がなる
+tile.natura.saguaro_fruit.name=サグアロフルーツ
+tile.natura.saguaro_fruit.tooltip=木のように成長する\n雨の後に実がなる
+
+tile.natura.maple_button.name=メイプルのボタン
+tile.natura.maple_pressure_plate.name=メイプルの感圧板
+tile.natura.maple_trap_door.name=メイプルのトラップドア
+tile.natura.maple_fence.name=メイプルのフェンス
+tile.natura.maple_fence_gate.name=メイプルのフェンスゲート
+
+tile.natura.silverbell_button.name=シルバーベルのボタン
+tile.natura.silverbell_pressure_plate.name=シルバーベルの感圧板
+tile.natura.silverbell_trap_door.name=シルバーベルのトラップドア
+tile.natura.silverbell_fence.name=シルバーベルのフェンス
+tile.natura.silverbell_fence_gate.name=シルバーベルのフェンスゲート
+
+tile.natura.amaranth_button.name=アマランサスのボタン
+tile.natura.amaranth_pressure_plate.name=アマランサスの感圧板
+tile.natura.amaranth_trap_door.name=アマランサスのトラップドア
+tile.natura.amaranth_fence.name=アマランサスのフェンス
+tile.natura.amaranth_fence_gate.name=アマランサスのフェンスゲート
+
+tile.natura.tiger_button.name=タイガーウッドのボタン
+tile.natura.tiger_pressure_plate.name=タイガーウッドの感圧板
+tile.natura.tiger_trap_door.name=タイガーウッドのトラップドア
+tile.natura.tiger_fence.name=タイガーウッドのフェンス
+tile.natura.tiger_fence_gate.name=タイガーウッドのフェンスゲート
+
+tile.natura.willow_button.name=ウィローのボタン
+tile.natura.willow_pressure_plate.name=ウィローの感圧板
+tile.natura.willow_trap_door.name=ウィローのトラップドア
+tile.natura.willow_fence.name=ウィローのフェンス
+tile.natura.willow_fence_gate.name=ウィローのフェンスゲート
+
+tile.natura.eucalyptus_button.name=ユーカリのボタン
+tile.natura.eucalyptus_pressure_plate.name=ユーカリの感圧板
+tile.natura.eucalyptus_trap_door.name=ユーカリのトラップドア
+tile.natura.eucalyptus_fence.name=ユーカリのフェンス
+tile.natura.eucalyptus_fence_gate.name=ユーカリのフェンスゲート
+
+tile.natura.hopseed_button.name=ホップシードのボタン
+tile.natura.hopseed_pressure_plate.name=ホップシードの感圧板
+tile.natura.hopseed_trap_door.name=ホップシードのトラップドア
+tile.natura.hopseed_fence.name=ホップシードのフェンス
+tile.natura.hopseed_fence_gate.name=ホップシードのフェンスゲート
+
+tile.natura.sakura_button.name=桜のボタン
+tile.natura.sakura_pressure_plate.name=桜の感圧板
+tile.natura.sakura_trap_door.name=桜のトラップドア
+tile.natura.sakura_fence.name=桜のフェンス
+tile.natura.sakura_fence_gate.name=桜のフェンスゲート
+
+tile.natura.redwood_button.name=レッドウッドのボタン
+tile.natura.redwood_pressure_plate.name=レッドウッドの感圧板
+tile.natura.redwood_trap_door.name=レッドウッドのトラップドア
+tile.natura.redwood_fence.name=レッドウッドのフェンス
+tile.natura.redwood_fence_gate.name=レッドウッドのフェンスゲート
+
+tile.natura.apple_button.name=リンゴのボタン
+tile.natura.apple_pressure_plate.name=リンゴの感圧板
+tile.natura.apple_trap_door.name=リンゴのトラップドア
+tile.natura.apple_fence.name=リンゴのフェンス
+tile.natura.apple_fence_gate.name=リンゴのフェンスゲート
+
+tile.natura.overworld_bookshelves.maple.name=メイプルの本棚
+tile.natura.overworld_bookshelves.silverbell.name=シルバーベルの本棚
+tile.natura.overworld_bookshelves.amaranth.name=アマランサスの本棚
+tile.natura.overworld_bookshelves.tiger.name=タイガーウッドの本棚
+tile.natura.overworld_bookshelves.willow.name=ウィローの本棚
+tile.natura.overworld_bookshelves.eucalyptus.name=ユーカリの本棚
+tile.natura.overworld_bookshelves.hopseed.name=ホップシードの本棚
+tile.natura.overworld_bookshelves.sakura.name=桜の本棚
+tile.natura.overworld_bookshelves.redwood.name=レッドウッドの本棚
+tile.natura.overworld_bookshelves.apple.name=リンゴの本棚
+
+tile.natura.overworld_workbenches.maple.name=メイプルの作業台
+tile.natura.overworld_workbenches.silverbell.name=シルバーベルの作業台
+tile.natura.overworld_workbenches.amaranth.name=アマランサスの作業台
+tile.natura.overworld_workbenches.tiger.name=タイガーウッドの作業台
+tile.natura.overworld_workbenches.willow.name=ウィローの作業台
+tile.natura.overworld_workbenches.eucalyptus.name=ユーカリの作業台
+tile.natura.overworld_workbenches.hopseed.name=ホップシードの作業台
+tile.natura.overworld_workbenches.sakura.name=桜の作業台
+tile.natura.overworld_workbenches.redwood.name=レッドウッドの作業台
+tile.natura.overworld_workbenches.apple.name=リンゴの作業台
+
+#######################
+#   ネザーブロック     #
+#######################
+
+tile.natura.nether_logs.ghostwood.name=ゴーストウッドの原木
+tile.natura.nether_logs.ghostwood.tooltip=ネザーの木\n幽霊のように白い
+tile.natura.nether_logs.darkwood.name=ダークウッドの原木
+tile.natura.nether_logs.darkwood.tooltip=ネザーの木
+tile.natura.nether_logs.fusewood.name=フューズウッドの原木
+tile.natura.nether_logs.fusewood.tooltip=ネザーの木\n爆発的な性格
+
+tile.natura.nether_logs2.name=ブラッドウッドの原木
+tile.natura.nether_logs2.tooltip=耐火性の木
+
+tile.natura.nether_leaves.ghostwood.name=ゴーストウッドの葉
+tile.natura.nether_leaves.ghostwood.tooltip=ネザーの木\n幽霊のように白い
+tile.natura.nether_leaves.bloodwood.name=ブラッドウッドの葉
+tile.natura.nether_leaves.bloodwood.tooltip=ネザーの木\n耐火性の葉
+tile.natura.nether_leaves.fusewood.name=フューズウッドの葉
+tile.natura.nether_leaves.fusewood.tooltip=ネザーの木\n爆発的な性格
+
+tile.natura.nether_leaves2.darkwood.name=ダークウッドの葉
+tile.natura.nether_leaves2.darkwood.tooltip=ネザーの木
+tile.natura.nether_leaves2.darkwood_flowering.name=ダークウッドの葉
+tile.natura.nether_leaves2.darkwood_flowering.tooltip=ネザーの木\n花が咲く
+tile.natura.nether_leaves2.darkwood_fruit.name=ダークウッドの葉
+tile.natura.nether_leaves2.darkwood_fruit.tooltip=ネザーの木\nリンゴが実る
+
+tile.natura.nether_sapling.ghostwood.name=ゴーストウッドの苗木
+tile.natura.nether_sapling.ghostwood.tooltip=幽霊のように白い
+tile.natura.nether_sapling.fusewood.name=フューズウッドの苗木
+tile.natura.nether_sapling.fusewood.tooltip=爆発的な性格
+tile.natura.nether_sapling.darkwood.name=ダークウッドの苗木
+tile.natura.nether_sapling.darkwood.tooltip=チョークのようなリンゴを作る
+
+tile.natura.nether_sapling2.bloodwood.name=ブラッドウッドの苗木
+tile.natura.nether_sapling2.bloodwood.tooltip=耐火性の木材
+
+tile.natura.nether_planks.ghostwood.name=ゴーストウッドの木材
+tile.natura.nether_planks.ghostwood.tooltip=幽霊のように白い
+tile.natura.nether_planks.bloodwood.name=ブラッドウッドの木材
+tile.natura.nether_planks.bloodwood.tooltip=耐火性の木材
+tile.natura.nether_planks.fusewood.name=フューズウッドの木材
+tile.natura.nether_planks.fusewood.tooltip=ネザーの木\n爆発的な性格
+tile.natura.nether_planks.darkwood.name=ダークウッドの木材
+tile.natura.nether_planks.darkwood.tooltip=ネザーの木
+
+tile.natura.nether_slab.ghostwood.name=ゴーストウッドのハーフブロック
+tile.natura.nether_slab.ghostwood.tooltip=幽霊のように白い
+tile.natura.nether_slab.bloodwood.name=ブラッドウッドのハーフブロック
+tile.natura.nether_slab.bloodwood.tooltip=耐火性の木材
+tile.natura.nether_slab.fusewood.name=フューズウッドのハーフブロック
+tile.natura.nether_slab.fusewood.tooltip=ネザーの木\n爆発的な性格
+tile.natura.nether_slab.darkwood.name=ダークウッドのハーフブロック
+tile.natura.nether_slab.darkwood.tooltip=ネザーの木
+
+tile.natura.nether_stairs_ghostwood.name=ゴーストウッドの階段
+tile.natura.nether_stairs_bloodwood.name=ブラッドウッドの階段
+tile.natura.nether_stairs_darkwood.name=ダークウッドの階段
+tile.natura.nether_stairs_fusewood.name=フューズウッドの階段
+
+tile.natura.nether_glass.soul.name=ソウルグラス
+tile.natura.nether_glass.soul.tooltip=幽霊のような
+tile.natura.nether_glass.heat.name=ヒートグラス
+
+tile.natura.nether_tainted_soil.tainted_soil.name=汚染された土
+tile.natura.nether_tainted_soil.tainted_farmland_dry.name=汚染された耕作地
+tile.natura.nether_tainted_soil.tainted_farmland_heated.name=加熱された汚染耕作地
+
+tile.natura.nether_heat_sand.name=ヒートサンド
+
+tile.natura.nether_berrybush_blightberry.name=ブライトベリーの茂み
+tile.natura.nether_berrybush_blightberry.tooltip=少し邪悪\n殺人的な回復
+tile.natura.nether_berrybush_duskberry.name=ダスクベリーの茂み
+tile.natura.nether_berrybush_duskberry.tooltip=少し邪悪\n夢の夜景色
+tile.natura.nether_berrybush_skyberry.name=スカイベリーの茂み
+tile.natura.nether_berrybush_skyberry.tooltip=少し邪悪\nゆっくり潜水
+tile.natura.nether_berrybush_stingberry.name=スティングベリーの茂み
+tile.natura.nether_berrybush_stingberry.tooltip=少し邪悪\nトラックのような攻撃
+
+tile.natura.respawn_obelisk.inactive.name=非アクティブリスポーンオベリスク
+tile.natura.respawn_obelisk.active.name=アクティブリスポーンオベリスク
+
+tile.natura.nether_thorn_vines.name=ソーンバイン
+
+tile.natura.nether_glowshroom.green.name=緑のグロウシュルーム
+tile.natura.nether_glowshroom.blue.name=青のグロウシュルーム
+tile.natura.nether_glowshroom.purple.name=紫のグロウシュルーム
+
+tile.natura.nether_green_large_glowshroom.all_inside.name=緑のグロウシュルーム
+tile.natura.nether_blue_large_glowshroom.all_inside.name=青のグロウシュルーム
+tile.natura.nether_purple_large_glowshroom.all_inside.name=紫のグロウシュルーム
+
+tile.natura.nether_lever.name=ネザーラックレバー
+
+tile.natura.nether_pressure_plate.name=ネザーラックの感圧板
+
+tile.natura.nether_button.name=ネザーラックボタン
+
+tile.natura.blaze_rail.name=ブレイズレール
+tile.natura.blaze_rail_golden.name=パワードブレイズレール
+tile.natura.blaze_rail_activator.name=アクティベーターブレイズレール
+tile.natura.blaze_rail_detector.name=ディテクターブレイズレール
+
+tile.natura.blaze_hopper.name=ブレイズホッパー
+
+tile.natura.netherrack_furnace.name=ネザーラックかまど
+tile.natura.lit_netherrack_furnace.name=燃えているネザーラックかまど
+
+tile.natura.ghostwood_button.name=ゴーストウッドのボタン
+tile.natura.ghostwood_pressure_plate.name=ゴーストウッドの感圧板
+tile.natura.ghostwood_trap_door.name=ゴーストウッドのトラップドア
+tile.natura.ghostwood_fence.name=ゴーストウッドのフェンス
+tile.natura.ghostwood_fence_gate.name=ゴーストウッドのフェンスゲート
+
+tile.natura.bloodwood_button.name=ブラッドウッドのボタン
+tile.natura.bloodwood_pressure_plate.name=ブラッドウッドの感圧板
+tile.natura.bloodwood_trap_door.name=ブラッドウッドのトラップドア
+tile.natura.bloodwood_fence.name=ブラッドウッドのフェンス
+tile.natura.bloodwood_fence_gate.name=ブラッドウッドのフェンスゲート
+
+tile.natura.fusewood_button.name=フューズウッドのボタン
+tile.natura.fusewood_pressure_plate.name=フューズウッドの感圧板
+tile.natura.fusewood_trap_door.name=フューズウッドのトラップドア
+tile.natura.fusewood_fence.name=フューズウッドのフェンス
+tile.natura.fusewood_fence_gate.name=フューズウッドのフェンスゲート
+
+tile.natura.darkwood_button.name=ダークウッドのボタン
+tile.natura.darkwood_pressure_plate.name=ダークウッドの感圧板
+tile.natura.darkwood_trap_door.name=ダークウッドのトラップドア
+tile.natura.darkwood_fence.name=ダークウッドのフェンス
+tile.natura.darkwood_fence_gate.name=ダークウッドのフェンスゲート
+
+tile.natura.charred_netherrack_bricks.name=焼けたネザーラックブリック
+tile.natura.netherrack_bricks.name=ネザーラックブリック
+tile.natura.smooth_netherrack.name=磨かれたネザーラック
+
+tile.natura.nether_bookshelves.ghostwood.name=ゴーストウッドの本棚
+tile.natura.nether_bookshelves.bloodwood.name=ブラッドウッドの本棚
+tile.natura.nether_bookshelves.fusewood.name=フューズウッドの本棚
+tile.natura.nether_bookshelves.darkwood.name=ダークウッドの本棚
+
+tile.natura.nether_workbenches.ghostwood.name=ゴーストウッドの作業台
+tile.natura.nether_workbenches.bloodwood.name=ブラッドウッドの作業台
+tile.natura.nether_workbenches.fusewood.name=フューズウッドの作業台
+tile.natura.nether_workbenches.darkwood.name=ダークウッドの作業台
+
+################
+#   アイテム     #
+################
+
+item.natura.edibles.impmeat_raw.name=生インプ肉
+item.natura.edibles.impmeat_raw.tooltip=これを食べるのはおそらく体に良くない
+item.natura.edibles.impmeat_cooked.name=調理したインプ肉
+item.natura.edibles.impmeat_cooked.tooltip=触ると温かい
+
+item.natura.edibles.raspberry.name=ラズベリー
+item.natura.edibles.raspberry.tooltip=満腹感！
+item.natura.edibles.blueberry.name=ブルーベリー
+item.natura.edibles.blueberry.tooltip=満腹感！
+item.natura.edibles.blackberry.name=ブラックベリー
+item.natura.edibles.blackberry.tooltip=満腹感！
+item.natura.edibles.maloberry.name=マロベリー
+item.natura.edibles.maloberry.tooltip=満腹感！
+
+item.natura.edibles.blightberry.name=ブライトベリー
+item.natura.edibles.blightberry.tooltip=少し邪悪\n殺人的な回復
+item.natura.edibles.duskberry.name=ダスクベリー
+item.natura.edibles.duskberry.tooltip=少し邪悪\n夢の夜景色
+item.natura.edibles.skyberry.name=スカイベリー
+item.natura.edibles.skyberry.tooltip=少し邪悪\nゆっくり潜水
+item.natura.edibles.stingberry.name=スティングベリー
+item.natura.edibles.stingberry.tooltip=少し邪悪\nトラックのような攻撃
+
+item.natura.edibles.potashapple.name=ポタシュアップル
+item.natura.edibles.potashapple.tooltip=チョークのような味
+
+item.natura.edibles.cactusjuice.name=カクタスジュース
+item.natura.edibles.cactusjuice.tooltip=さっぱり！
+
+item.natura.materials.barley.name=大麦
+item.natura.materials.barley.tooltip=小麦に似ているが、野生で育つ
+item.natura.materials.barley_flour.name=大麦粉
+item.natura.materials.barley_flour.tooltip=焼いてパンを作る\nケーキ作りにも使う
+item.natura.materials.wheat_flour.name=小麦粉
+item.natura.materials.wheat_flour.tooltip=焼いてパンを作る\nケーキ作りにも使う
+item.natura.materials.cotton.name=綿
+item.natura.materials.cotton.tooltip=すべての糸と羊毛の源
+item.natura.materials.sulfur_powder.name=硫黄
+item.natura.materials.sulfur_powder.tooltip=2x2で火薬に変換
+item.natura.materials.ghostwood_fletching.name=矢羽
+item.natura.materials.ghostwood_fletching.tooltip=矢作りの代替部品
+item.natura.materials.imp_leather.name=インプの皮
+item.natura.materials.imp_leather.tooltip=耐熱性！
+item.natura.materials.flame_string.name=フレイムストリング
+item.natura.materials.flame_string.tooltip=糸よりもやや耐久性がある
+item.natura.materials.blue_dye.name=青色の染料
+
+item.natura.sticks.maple_stick.name=メイプルの棒
+item.natura.sticks.silverbell_stick.name=シルバーベルの棒
+item.natura.sticks.amaranth_stick.name=アマランサスの棒
+item.natura.sticks.tiger_stick.name=タイガーウッドの棒
+item.natura.sticks.willow_stick.name=ウィローの棒
+item.natura.sticks.eucalyptus_stick.name=ユーカリの棒
+item.natura.sticks.hopseed_stick.name=ホップシードの棒
+item.natura.sticks.sakura_stick.name=桜の棒
+item.natura.sticks.redwood_stick.name=レッドウッドの棒
+item.natura.sticks.apple_stick.name=リンゴの棒
+item.natura.sticks.ghostwood_stick.name=ゴーストウッドの棒
+item.natura.sticks.darkwood_stick.name=ダークウッドの棒
+item.natura.sticks.fusewood_stick.name=フューズウッドの棒
+item.natura.sticks.bloodwood_stick.name=ブラッドウッドの棒
+
+item.natura.glowshroom_stew.name=グロウシュルームシチュー
+
+item.natura.berry_medley.name=ベリーメドレー
+item.natura.soups.berry_medley.tooltip=抵抗しがたいベリーの組み合わせ
+
+item.natura.imp_armor_helmet.name=Imp Hide Cap
+item.natura.imp_armor_chestplate.name=Imp Hide Jerkin
+item.natura.imp_armor_leggings.name=Imp Hide Pants
+item.natura.imp_armor_boots.name=Imp Hide Boots
+
+item.natura.seed_bags.wheat_seed_bag.name=Wheat Seed Bag
+item.natura.seed_bags.wheat_seed_bag.tooltip=Plants in a 3x3 area
+item.natura.seed_bags.potatoes_seed_bag.name=Potato Bag
+item.natura.seed_bags.potatoes_seed_bag.tooltip=Plants in a 3x3 area
+item.natura.seed_bags.carrots_seed_bag.name=Carrot Bag
+item.natura.seed_bags.carrots_seed_bag.tooltip=Plants in a 3x3 area
+item.natura.seed_bags.nether_wart_seed_bag.name=Nether Wart Bag
+item.natura.seed_bags.nether_wart_seed_bag.tooltip=Plants in a 3x3 area
+item.natura.bonemeal_bag.name=Bone Meal Bag
+item.natura.bonemeal_bag.tooltip=Grows plants in a 3x3 area
+item.natura.overworld_seed_bags.barley_seed_bag.name=Barley Seed Bag
+item.natura.overworld_seed_bags.barley_seed_bag.tooltip=Plants in a 3x3 area
+item.natura.overworld_seed_bags.cotton_seed_bag.name=Cotton Seed Bag
+item.natura.overworld_seed_bags.cotton_seed_bag.tooltip=Plants in a 3x3 area
+
+item.natura.overworld_seeds.barley_seeds.name=Barley Seeds
+item.natura.overworld_seeds.barley_seeds.tooltip=Similar to wheat, it grows in the wild
+item.natura.overworld_seeds.cotton_seeds.name=Cotton Seeds
+item.natura.overworld_seeds.cotton_seeds.tooltip=The source of all string and wool
+
+item.natura.overworld_doors.eucalyptus_door.name=Eucalyptus Door
+item.natura.overworld_doors.eucalyptus_door.tooltip=The pink wood
+item.natura.overworld_doors.hopseed_door.name=Hopseed Door
+item.natura.overworld_doors.hopseed_door.tooltip=Ascended Glitch
+item.natura.overworld_doors.sakura_door.name=Sakura Door
+item.natura.overworld_doors.sakura_door.tooltip=Flowering Cherry
+item.natura.overworld_doors.redwood_door.name=Redwood Door
+item.natura.overworld_doors.redwood_door.tooltip=Giant Sequoia
+item.natura.overworld_doors.redwood_bark_door.name=Redwood Bark Door
+item.natura.overworld_doors.redwood_bark_door.tooltip=Secret Tunnel
+item.natura.overworld_doors.tiger_door.name=Tigerwood Door
+item.natura.overworld_doors.tiger_door.tooltip=Wild Grain
+item.natura.overworld_doors.maple_door.name=Maple Door
+item.natura.overworld_doors.maple_door.tooltip=Somewhat Sweet
+item.natura.overworld_doors.silverbell_door.name=Silverbell Door
+item.natura.overworld_doors.silverbell_door.tooltip=Silver Bells
+item.natura.overworld_doors.amaranth_door.name=Amaranth Door
+item.natura.overworld_doors.amaranth_door.tooltip=Heart of Wood
+item.natura.overworld_doors.willow_door.name=Willow Door
+item.natura.overworld_doors.willow_door.tooltip=The Weeper
+item.natura.overworld_doors.apple_door.name=Apple Door
+item.natura.overworld_doors.apple_door.tooltip=Apples to the Core
+
+item.natura.nether_doors.ghostwood_door.name=Ghostwood Door
+item.natura.nether_doors.ghostwood_door.tooltip=Pale as a ghost
+item.natura.nether_doors.bloodwood_door.name=Bloodwood Door
+item.natura.nether_doors.bloodwood_door.tooltip=Fire-resistant door
+item.natura.nether_doors.darkwood_door.name=Darkwood Door
+item.natura.nether_doors.darkwood_door.tooltip=Nether Tree
+item.natura.nether_doors.fusewood_door.name=Fusewood Door
+item.natura.nether_doors.fusewood_door.tooltip=Nether Tree\nExplosive Personality
+
+item.natura.saguaro_fruit_item.name=Saguaro Fruit
+
+################
+#    Tools     #
+################
+
+item.natura.flint_and_blaze.name=Flint and Blaze
+
+item.natura.ghostwood_sword.name=Ghostwood Sword
+item.natura.ghostwood_pickaxe.name=Ghostwood Pickaxe
+item.natura.ghostwood_shovel.name=Ghostwood Shovel
+item.natura.ghostwood_axe.name=Ghostwood Axe
+item.natura.ghostwood_hoe.name=Ghostwood Hoe
+item.natura.ghostwood_bow.name=Ghostwood Bow
+
+item.natura.bloodwood_sword.name=Bloodwood Sword
+item.natura.bloodwood_pickaxe.name=Bloodwood Pickaxe
+item.natura.bloodwood_shovel.name=Bloodwood Shovel
+item.natura.bloodwood_axe.name=Bloodwood Axe
+item.natura.bloodwood_hoe.name=Bloodwood Hoe
+item.natura.bloodwood_bow.name=Bloodwood Bow
+
+item.natura.darkwood_sword.name=Darkwood Sword
+item.natura.darkwood_pickaxe.name=Darkwood Pickaxe
+item.natura.darkwood_shovel.name=Darkwood Shovel
+item.natura.darkwood_axe.name=Darkwood Axe
+item.natura.darkwood_hoe.name=Darkwood Hoe
+item.natura.darkwood_bow.name=Darkwood Bow
+
+item.natura.fusewood_sword.name=Fusewood Sword
+item.natura.fusewood_pickaxe.name=Fusewood Pickaxe
+item.natura.fusewood_shovel.name=Fusewood Shovel
+item.natura.fusewood_axe.name=Fusewood Axe
+item.natura.fusewood_hoe.name=Fusewood Hoe
+item.natura.fusewood_bow.name=Fusewood Bow
+
+item.natura.netherquartz_sword.name=Nether Quartz Sword
+item.natura.netherquartz_pickaxe.name=Nether Quartz Pickaxe
+item.natura.netherquartz_shovel.name=Nether Quartz Shovel
+item.natura.netherquartz_axe.name=Nether Quartz Axe
+item.natura.netherquartz_hoe.name=Nether Quartz Hoe
+item.natura.netherquartz_bow.name=Nether Quartz Bow
+item.natura.netherquartz_shears.name=Nether Quartz Shears
+
+#################
+#   Entities    #
+#################
+
+entity.imp.name=インプ
+entity.heatscarspider.name=ヒートスカースパイダー
+entity.babyheatscarspider.name=子ヒートスカースパイダー
+entity.nitrocreeper.name=ニトロクリーパー
+
+################
+#     GUIs     #
+################
+
+itemGroup.natura.tab=Natura Legacy
+
+msg.natura.respawn_obelisk.activate=オベリスクが活性化されました。スポーンポイントが設定されました！
+msg.natura.respawn_obelisk.deactivate=オベリスクが無効化されました。スポーンポイントがリセットされました！
+
+###############
+#    HWYLA    #
+###############
+
+option.natura.alternatecropitem=Alternate Crop
+option.natura.alternatedooritem=Alternate Door

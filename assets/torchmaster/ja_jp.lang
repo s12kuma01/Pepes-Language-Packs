@@ -1,0 +1,32 @@
+tile.torchmaster.mega_torch.lit.name=メガトーチ
+tile.torchmaster.mega_torch.unlit.name=火のついていないメガトーチ
+tile.torchmaster.terrain_lighter.name=テレインライター
+tile.torchmaster.dread_lamp.name=ドレッドランプ
+tile.torchmaster.feral_flare_lantern.name=フェラルフレアランタン
+
+item.torchmaster.frozen_pearl.name=凍結した真珠
+
+tile.torchmaster.mega_torch.lit.tooltip=トーチの周囲の適度な範囲で、敵性モブが自然スポーンするのを防ぎます。
+tile.torchmaster.mega_torch.unlit.tooltip=トーチの周囲の適度な範囲で、敵性モブが自然スポーンするのを防ぎます。
+tile.torchmaster.terrain_lighter.tooltip=トーチを自動的に設置します。トーチ、燃料、レッドストーン信号が必要です。
+tile.torchmaster.dread_lamp.tooltip=ランプの周囲の広い範囲で、イカ、コウモリ、ヤマネコのような非敵性動物が自然スポーンするのを防ぎます。
+tile.torchmaster.feral_flare_lantern.tooltip=広範囲をゆっくりと照らします。ランタンを撤去すると、光もゆっくりと消滅します。
+
+item.torchmaster.frozen_pearl.tooltip=フェラルフレアランタンによる残留光を消去します。
+
+tile.torchmaster.mega_torch.light_failed_itemcount=§Cトーチを灯すのに十分なアイテムがありません§r
+tile.torchmaster.mega_torch.light_failed_itemtoodamaged=§Cあなたのアイテムは破損しすぎていてトーチを灯せません§r
+tile.torchmaster.mega_torch.torch_is_lit=§2トーチが燃えています§r
+
+tile.torchmaster.mega_torch.lit.burntime_left=残り時間: %s.%s:%s:%s
+
+container.torchmaster.terrain_lighter=テレインライター
+gui.torchmaster.block.state.no_signal=レッドストーン信号なし
+gui.torchmaster.feral_flare_lantern.state.los_on.short=視線: §A有効§r
+gui.torchmaster.feral_flare_lantern.state.los_on.description=ランタンは、直接視認できる位置にのみ光を設置します$n
+gui.torchmaster.feral_flare_lantern.state.los_off.short=視線: §C無効§r
+gui.torchmaster.feral_flare_lantern.state.los_off.description=ランタンはどこにでも光を設置します
+itemGroup.torchmaster=TorchMaster
+
+command.torchmaster.entity_dump.completed=エンティティがログファイルにダンプされました。
+command.torchmaster.torch_list.completed=トーチがログファイルにダンプされました。

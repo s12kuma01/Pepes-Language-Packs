@@ -1,0 +1,112 @@
+item.cookingforblockheads:recipe_book_tier0.name=ブロックヘッズ用料理本
+item.cookingforblockheads:recipe_book_tier1.name=ブロックヘッズ用料理本 I
+item.cookingforblockheads:recipe_book_tier2.name=ブロックヘッズ用料理本 II
+item.cookingforblockheads:heating_unit.name=加熱ユニット
+item.cookingforblockheads:ice_unit.name=冷却ユニット
+item.cookingforblockheads:preservation_chamber.name=保存チャンバー
+
+tooltip.cookingforblockheads:recipe_book_tier0=#NoFilter Edition
+tooltip.cookingforblockheads:recipe_book_tier0.description=すべての食材レシピを表示します。
+tooltip.cookingforblockheads:recipe_book_tier1=レシピブック
+tooltip.cookingforblockheads:recipe_book_tier1.description=インベントリにあるアイテムで\n作ることができる食材を表示します。
+tooltip.cookingforblockheads:recipe_book_tier2=クラフトブック
+tooltip.cookingforblockheads:recipe_book_tier2.description=インベントリにあるアイテムを使って\n食材をクラフトできます。
+
+###
+
+tile.cookingforblockheads:cooking_table.name=料理台
+tile.cookingforblockheads:oven.name=オーブン
+tile.cookingforblockheads:fruit_basket.name=フルーツバスケット
+tile.cookingforblockheads:fridge.name=冷蔵庫
+tile.cookingforblockheads:sink.name=流し台
+tile.cookingforblockheads:tool_rack.name=ツールラック
+tile.cookingforblockheads:milk_jar.name=牛乳瓶
+tile.cookingforblockheads:cow_jar.name=瓶に入った牛
+tile.cookingforblockheads:toaster.name=トースター
+tile.cookingforblockheads:spice_rack.name=スパイスラック
+tile.cookingforblockheads:counter.name=キッチンカウンター
+tile.cookingforblockheads:cabinet.name=キッチンキャビネット
+tile.cookingforblockheads:corner.name=キッチンコーナー
+tile.cookingforblockheads:kitchen_floor.name=キッチンフロア
+tile.cookingforblockheads:cutting_board.name=まな板
+
+tooltip.cookingforblockheads:multiblock_kitchen=マルチブロックキッチン
+tooltip.cookingforblockheads:dyeable=染色可能
+tooltip.cookingforblockheads:cooking_table.description=クラフト機能を有効にします。
+tooltip.cookingforblockheads:oven.description=精錬機能を有効にします。
+tooltip.cookingforblockheads:sink.description=レシピに水を提供します。
+tooltip.cookingforblockheads:fridge.description=レシピ用の食材を保存します。
+tooltip.cookingforblockheads:fruit_basket.description=レシピ用の果物を保存します。
+tooltip.cookingforblockheads:tool_rack.description=レシピにツールを提供します。
+tooltip.cookingforblockheads:milk_jar.description=レシピに牛乳を提供します。
+tooltip.cookingforblockheads:cow_jar.description=レシピ用の牛乳をゆっくりと生産します。
+tooltip.cookingforblockheads:toaster.description=魔法のようにパンをトーストに変えます。
+tooltip.cookingforblockheads:spice_rack.description=スパイスと食材を保存します。
+tooltip.cookingforblockheads:counter.description=レシピ用の食材を保存します。
+tooltip.cookingforblockheads:cabinet.description=キッチンブロックの上の壁に設置できます。
+tooltip.cookingforblockheads:corner.description=特に用途はありません。
+tooltip.cookingforblockheads:kitchen_floor.description=特に用途はありません。
+tooltip.cookingforblockheads:heating_unit.description=エネルギーを使ってオーブンを加熱できます。
+tooltip.cookingforblockheads:ice_unit.description=レシピに雪と氷を提供します。
+tooltip.cookingforblockheads:preservation_chamber.description=スロット内の最後のアイテムが消費されるのを防ぎます。
+tooltip.cookingforblockheads:cutting_board.description=レシピにまな板を提供します。
+tooltip.cookingforblockheads:requires_pams=Pam's Harvestcraftが必要です
+tooltip.cookingforblockheads:cutting_board_deprecated=このアイテムは廃止されました。\nPam's まな板を直接設置できるようになりました。
+tooltip.cookingforblockheads:can_be_placed_in_world=ワールドに設置できます。
+
+###
+
+gui.cookingforblockheads:no_ingredients=材料が
+足りません
+gui.cookingforblockheads:no_selection=右側のアイテムを選択して
+レシピを確認してください。
+
+tooltip.cookingforblockheads:click_to_see_recipe=クリックでレシピを表示
+tooltip.cookingforblockheads:click_to_craft_one=再度クリックでクラフト
+tooltip.cookingforblockheads:click_to_smelt_one=再度クリックで調理
+tooltip.cookingforblockheads:click_to_craft_stack=Shift+クリックでスタッククラフト
+tooltip.cookingforblockheads:click_to_smelt_stack=Shift+クリックでスタック調理
+tooltip.cookingforblockheads:missing_tools=クラフトに必要なツールがありません
+tooltip.cookingforblockheads:missing_ingredients=クラフトに必要な材料がありません
+tooltip.cookingforblockheads:missing_oven=調理に必要なオーブンがありません
+tooltip.cookingforblockheads:sort_by_name=名前順で並び替え
+tooltip.cookingforblockheads:sort_by_hunger=満腹度回復量順で並び替え
+tooltip.cookingforblockheads:sort_by_saturation=隠し満腹度順で並び替え
+tooltip.cookingforblockheads:click_to_lock=右クリックでアイテムをロック
+tooltip.cookingforblockheads:click_to_unlock=右クリックでアイテムのロックを解除
+tooltip.cookingforblockheads:scroll_to_switch=スクロールでアイテムを選択
+tooltip.cookingforblockheads:energy_stored=エネルギー蓄積量: %d/%d
+tooltip.cookingforblockheads:oven_upgrade=オーブンアップグレード
+tooltip.cookingforblockheads:fridge_upgrade=冷蔵庫アップグレード
+
+###
+
+container.cookingforblockheads:oven=料理用オーブン
+container.cookingforblockheads:fridge=冷蔵庫
+container.cookingforblockheads:spice_rack=スパイスラック
+container.cookingforblockheads:counter=キッチンカウンター
+container.cookingforblockheads:cabinet=キッチンキャビネット
+container.cookingforblockheads:fruit_basket=フルーツバスケット
+
+itemGroup.cookingforblockheads=Cooking for Blockheads
+
+###
+
+waila.cookingforblockheads:milk_stored=牛乳の量: %d/%d
+waila.cookingforblockheads:toast_progress=トースト中... (%s)
+waila.cookingforblockheads:heating_unit=アップグレード: 加熱ユニット
+waila.cookingforblockheads:ice_unit=アップグレード: 冷却ユニット
+waila.cookingforblockheads:preservation_chamber=アップグレード: 保存チャンバー
+
+###
+
+cookingforblockheads:subtitle.fridge_open=冷蔵庫が開く
+cookingforblockheads:subtitle.fridge_close=冷蔵庫が閉まる
+cookingforblockheads:subtitle.oven_open=オーブンが開く
+cookingforblockheads:subtitle.oven_close=オーブンが閉まる
+cookingforblockheads:subtitle.toaster_start=トースターがトーストを開始
+cookingforblockheads:subtitle.toaster_stop=トースターがトーストを完了
+
+###
+
+jei.cookingforblockheads:cow_jar=瓶に入った牛

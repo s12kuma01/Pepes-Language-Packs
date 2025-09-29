@@ -1,0 +1,6 @@
+text.bloodmoon.notify=ブラッドムーンが昇り始めた...
+text.bloodmoon.nosleep=疲れがたまっていない...
+text.bloodmoon.force=次夜にブラッドムーンが発生します
+text.bloodmoon.stop=ブラッドムーンを停止しました
+text.bloodmoon.commandError=オーバーワールドで実行してください。
+text.bloodmoon.entity=20ブロック以内のモンスター:
