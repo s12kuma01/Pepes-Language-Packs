@@ -56,10 +56,8 @@ tooltip.cookingforblockheads:can_be_placed_in_world=ワールドに設置でき�
 
 ###
 
-gui.cookingforblockheads:no_ingredients=材料が
-足りません
-gui.cookingforblockheads:no_selection=右側のアイテムを選択して
-レシピを確認してください。
+gui.cookingforblockheads:no_ingredients=材料が足りません
+gui.cookingforblockheads:no_selection=右側のアイテムを選択してレシピを確認してください。
 
 tooltip.cookingforblockheads:click_to_see_recipe=クリックでレシピを表示
 tooltip.cookingforblockheads:click_to_craft_one=再度クリックでクラフト
